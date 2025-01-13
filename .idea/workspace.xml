@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6f5f9b3-89fd-4781-be17-8d3f9f5aa725" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/BudgetBlazeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/BudgetBlazeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/entity/Expense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/entity/Expense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/entity/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/service/ExpenseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Budget/Blaze/service/ExpenseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add-expense.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add-expense.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/update-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/update-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Budget/Blaze/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Budget/Blaze/entity/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Budget/Blaze/entity/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Budget/Blaze/entity/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Budget/Blaze/entity/Expense.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Budget/Blaze/entity/Expense.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Budget/Blaze/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Budget/Blaze/entity/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Budget/Blaze/entity/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Budget/Blaze/entity/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Budget/Blaze/service/ExpenseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Budget/Blaze/service/ExpenseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/add-expense.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/add-expense.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/update-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/update-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,19 +50,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BudgetBlazeApplication.executor": "Run",
-    "Application.ExpensesTrackerApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Lenovo/Desktop/budgetblaze",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BudgetBlazeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExpensesTrackerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Desktop/budgetblaze&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="budgetblaze" />
@@ -67,5 +87,35 @@
       <updated>1736186615279</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Budget/Blaze/entity/Expense.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Budget/Blaze/controller/MainController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Budget/Blaze/controller/MainController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Budget/Blaze/DTO/ExpenseDTO.java</url>
+          <line>10</line>
+          <properties class="com.Budget.Blaze.DTO.ExpenseDTO" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

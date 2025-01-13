@@ -3,6 +3,7 @@ package com.Budget.Blaze.entity;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name="expense")
 public class Expense {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

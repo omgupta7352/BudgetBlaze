@@ -38,19 +38,23 @@ public class ExpenseServiceImpl implements ExpenseService {
     @Transactional
     @Override
     public void save(ExpenseDTO expenseDTO) {
-        System.out.println(expenseDTO);
         Expense expense = new Expense();
         expense.setAmount(expenseDTO.getAmount());
         expense.setDateTime(expenseDTO.getDateTime());
+        //System.out.println("main controller 3");
         expense.setDescription(expenseDTO.getDescription());
+        //System.out.println("main controller 4"+expense.getDescription());
         expense.setClient(clientService.findClientById(expenseDTO.getClientId()));
         Category category = categoryService.findCategoryByName(expenseDTO.getCategory());
+        System.out.println("main controller 6"+expenseDTO.getCategory());
         expense.setCategory(category);
+        System.out.println("main controller 7"+expense.getCategory());
         expenseRepository.save(expense);
     }
 
     @Override
     public void update(ExpenseDTO expenseDTO) {
+        System.out.println("expense");
         Expense existingExpense = expenseRepository.findById(expenseDTO.getExpenseId()).orElse(null);
         existingExpense.setAmount(expenseDTO.getAmount());
         existingExpense.setDateTime(expenseDTO.getDateTime());
@@ -58,6 +62,7 @@ public class ExpenseServiceImpl implements ExpenseService {
         Category category = categoryService.findCategoryByName(expenseDTO.getCategory());
         existingExpense.setCategory(category);
         expenseRepository.save(existingExpense);
+        System.out.println("expense");
     }
 
     @Override
@@ -96,6 +101,7 @@ public class ExpenseServiceImpl implements ExpenseService {
         List<Expense> expenseList = expenseTypedQuery.getResultList();
         return expenseList;
     }
+
 
 
 
